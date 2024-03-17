@@ -1,0 +1,42 @@
+@import 'src/assets/styles/variables';
+
+	.form{
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+	
+	.content-row{
+		display: flex;
+		gap: 50px;
+		
+		.content-wrapper{
+			flex-basis: 50%;
+		}
+	}
+	.border-blue{
+		border: 2px solid $blue;
+	}
+	.title{
+		font-weight: bold;
+		margin-bottom: 15px;
+	}
+	.content-list{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+	.content-list-item{
+		display: flex;
+		align-items: center;
+		margin-bottom: 15px;
+	}
+	.content-list .name{
+		align-self: stretch;
+		flex-basis: 20%;
+		
+		color: $gray;
+	}
+	.content-list .value{
+		flex-basis: 60%;
+	}
